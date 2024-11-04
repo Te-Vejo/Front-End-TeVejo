@@ -8,15 +8,17 @@
     font-family: 'Poppins',sans-serif;
 }
 h1{
-    font-weight: 300;
+    font-weight: 500;
     font-size: 40px;
+    color: #ffff;
+    z-index: 2;
 }
 .fundoGeralTelaCadastro{
     width: 100vw;
     height: 100vh;
     overflow: hidden;
     display: flex;
-    background-color: #f0f0f0;    
+    background-color: #CA7DF9;    
 }
 .fundoCadastro{
     display: flex;
@@ -28,6 +30,12 @@ h1{
     height: 100%;
     width: 75%;
     text-align: center;
+}
+.formularioCadastroCrianca{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 20px;
+
 }
 .logo{
     max-height: 55px;
@@ -44,7 +52,7 @@ h1{
     z-index: 10;
 }
 .entrada{
-    background: #59D1F6;
+    background: #F5F5F4;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
     transition: box-shadow 0.3s;
     border-radius: 50px;
@@ -57,7 +65,7 @@ input::placeholder{
     color: black;
 }
 .btnConfirmarCadastro{
-    background: #F445A1;
+    background: #360568;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
     transition: box-shadow 0.3s;
     color: #f0f0f0;
@@ -68,10 +76,14 @@ input::placeholder{
     height: 50px;
     width: 175px;
 }
-.fundoRosaImg{
-    background-color: #F445A196;
+.btnConfirmarCadastro:hover{
+    background-color: #8103ff;
+    transition: background-color 0.9s, transform 0.9s;
 }
-.fotoadult{
+.fundoAmareloImg{
+    background-color: #FFDA7B;
+}
+.kids{
     width: 100%;
     height: auto;
     object-fit: cover; 

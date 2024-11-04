@@ -1,10 +1,44 @@
 import './style.css'
+import fundofamily from './IMG/fundofamily.png'
+import logo from './IMG/logo.png'
+import { Link } from 'react-router-dom';
 
-function Cadastro(){
-    return(
+function Cadastro() {
+    return (
         <>
-        <h1>TELA DE CADASTRO</h1>
+
+            <div className="fundoGeralTelaCadastro">
+
+                <div className="fundoCadastro">
+
+                    <div className="formularioCadastroAdulto">
+                        <form method="post">
+                            <h1>Cadastre-se</h1>
+                            <input className="entrada" type="text" placeholder="  Nome" />
+                            <br />
+                            <input className="entrada" type="email" placeholder="  E-mail" />
+                            <br />
+                            <input className="entrada" type="text" placeholder="  CPF" />
+                            <br />
+                            <input className="entrada" type="password" placeholder="  Senha" />
+                            <br />
+                            <button className="btnConfirmarCadastro">Avançar</button>
+                        </form>
+                    </div>
+                </div>
+
+
+
+                <div className="fundoRosaImg">
+                    <Link to={"/"}>
+                        <img src={logo} alt="Logo" className='logo' />
+                    </Link>
+                    <img src={fundofamily} alt="" className='fotoadult' />
+                </div>
+
+            </div>
         </>
+
     )
 }
 
