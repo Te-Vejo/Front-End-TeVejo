@@ -83,7 +83,9 @@
     border-radius: 25px;
     background-image: url(../../assets/images/imagensHome/meninaSorrindo.png);
     background-size: cover;
-    background-position: left top;
+    background-position: top;
+    gap: 3.5em;
+
 }
 
 .txtSegundaSeccaoHome{
@@ -93,13 +95,18 @@
     margin-top: 1em;
 }
 
+.txtSegundaSeccaoHome02{
+    width: 415px;
+    height: 111px;
+    margin-left: 2em;
+}
+
 .Titulo02Home, .textoMenor02Home{
     color: #F445A1;
 }
 
 .textoMenorHome3{
     color: white;
-    margin-top: 3.5em;
 }
 
 .linkIaHomeEmDestaque:hover{
@@ -109,5 +116,85 @@
 
 .SubtituloParaOsJogos{
     text-align: center;
+    color: #2B616D;
+}
+
+.seccaoJogosHome{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 20em;
+    margin: 45px 0px 20px 0px;
+
+    font-family: 'Montserrat', sans-serif ;
+}
+
+.PrimeiroJogoSeccaoHome, .SegundoJogoSeccaoHome, .TerceiroJogoSeccaoHome{
+    display: flex;
+    width: 20em;
+    height: 20em;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.descricaoPrimeiroJogoHome{
+    width: 10em;
+    height: 2em;
+    background-color: #2FA5CA;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-weight: 700;
+    border-radius: 40px;
+}
+
+.descricaoSegundoJogoHome{
+    width: 11em;
+    height: 2em;
+    background-color: #FF592B;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-weight: 700;
+    border-radius: 40px;
+}
+
+.descricaoTerceiroJogoHome{
+    width: 10em;
+    height: 2em;
+    background-color: #662200;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-weight: 700;
+    border-radius: 40px;
+}
+
+.ContainerlinkParaJogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.linkParaOsJogosHome{
+    display: block;
+    background-color: #2FA5CA;
+    width: 45em;
+    height: 2em;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 40px;
+}
+
+.linkParaOsJogosHome:hover{
+    text-decoration: underline;
+    background-color: whitesmoke;
     color: #2B616D;
 }
