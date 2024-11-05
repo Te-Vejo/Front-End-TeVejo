@@ -21,7 +21,7 @@ function NavbarPadrao() {
             <Nav.Link as={Link} to={"/blog"} className='btnNavbar'>Blog</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link as={Link} to={"/login"} className='btnCadastroNavbar'>Logar-se</Nav.Link>
+            <Nav.Link as={Link} to={"/login"} className='btnCadastroNavbar'>Login</Nav.Link>
             {/* <Nav.Link as={Link} to={"/login"} className='btnLoginNavbar'>Logar</Nav.Link> */}
           </Nav>
         </Navbar.Collapse>

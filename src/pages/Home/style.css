@@ -84,6 +84,7 @@
     background-image: url(../../assets/images/imagensHome/meninaSorrindo.png);
     background-size: cover;
     background-position: top;
+    position: absolute;
     gap: 3.5em;
 
 }

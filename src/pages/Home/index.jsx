@@ -1,8 +1,8 @@
 import './style.css';
 import NavbarPadrao from '../../components/navbar';
 import FooterPadrao from '../../components/footer';
+import CardJogo from '../../components/cardJogos/CardJogo';
 import { Link } from 'react-router-dom';
-import imgPrimeiroJogo from '../../assets/images/imagensHome/imgPrimeiroJogo.png';
 import imgSegundoJogo from '../../assets/images/imagensHome/imgSegundoJogo.png';
 import imgTerceiroJogo from '../../assets/images/imagensHome/imgTerceiroJogo.png';
 
@@ -43,7 +43,7 @@ function Home(){
 
         <div className="seccaoJogosHome">
             <div className='PrimeiroJogoSeccaoHome'>
-                    <img src={imgPrimeiroJogo} alt="Imagem do jogo letras secretas" height={255} />
+                    {<CardJogo/>}
                     <p className='descricaoPrimeiroJogoHome'>Letras Secretas</p>
             </div>
             <div className='SegundoJogoSeccaoHome'>
