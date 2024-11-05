@@ -7,11 +7,15 @@
     align-items: center;
     justify-content: space-evenly;
     
-    background-color: #8D8D8D40;
+    background-color: #2387A6;
     
     height: 100px;
     font-size: 15px;
     font-weight: 600;
+}
+
+.textoFooter{
+    color: white;
 }
 
 .btnFooter{

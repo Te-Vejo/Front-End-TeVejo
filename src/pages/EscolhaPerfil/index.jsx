@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './style.css';
-import foto1 from './IMG/foto1.png';
-import foto2 from './IMG/foto2.png';
-import foto3 from './IMG/foto3.png';
+import foto1 from '../../assets/images/imagensEscolhaPerfil/foto1.png';
+import foto2 from '../../assets/images/imagensEscolhaPerfil/foto2.png';
+import foto3 from '../../assets/images/imagensEscolhaPerfil/foto3.png';
 
 
 
@@ -16,9 +16,9 @@ function EscolhaPerfil() {
     return (
 
         
-        <div className="App">
+        <div className="AppEscolhaPerfil">
 
-            <h1>Escolha o perfil</h1>
+            <h1 className='TituloEscolhadoPequeno'>Escolha o perfil</h1>
 
             <div className="circulos">
                 <div

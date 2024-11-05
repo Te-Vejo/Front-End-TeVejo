@@ -5,9 +5,9 @@
     border: none;
     margin: 0px;
     box-sizing: border-box;
-    font-family: 'Poppins',sans-serif;
 }
-h1{
+
+.tituloCadastroAdulto{
     font-weight: 300;
     font-size: 40px;
 }

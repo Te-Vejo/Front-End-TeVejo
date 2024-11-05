@@ -1,6 +1,6 @@
 import './style.css'
-import fundocriancas from './IMG/fundocriancas.png'
-import logo from './IMG/logo.png'
+import fundocriancas from '../../assets/images/imagemCadastroKid/fundocriancas.png'
+import logo from '../../assets/images/logo/logoTelaCadastro.png'
 import { Link } from 'react-router-dom';
 
 function CadastroKid() {
@@ -13,7 +13,7 @@ function CadastroKid() {
 
                     <div className="formularioCadastroCrianca">
                         <form method="post">
-                            <h1>Cadastre seu pequeno</h1>
+                            <h1 className='tituloCadastroKid'>Cadastre seu pequeno</h1>
                             <input className="entrada" type="text" placeholder="  Nome da criança" />
                             <br />
                             <select className="entrada" id="sexo" >

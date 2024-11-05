@@ -34,16 +34,17 @@
     transition: 0.5s ease-in-out;
 }
 
-.btnCadastroNavbar{
+.btnCadastroNavbar , .btnLoginNavbar{
+    font-size: 15px;
     color: #F445A1;
     border: 5px solid #F445A1;
     border-radius: 50px;
-    width: 150px;
+    width: 120px;
     text-align: center;
     margin-left: 10px;
 }
 
-.btnCadastroNavbar:hover{
+.btnCadastroNavbar:hover, .btnLoginNavbar:hover{
     transform: translate(0px, -3px);
     color: #F445A1;
 
@@ -51,6 +52,7 @@
     transition: 0.5s ease-in-out;
 
 }
+
 
 @media  (max-width: 1228px) {
     .logoNavbar{
@@ -114,5 +116,14 @@
         background-color: #f8f9fa;
         margin: 0px;
         width: 60%;
+    }
+}
+
+
+@media (max-width:400px) {
+    .btnNavbar{
+        background-color: #f8f9fa;
+        margin: 0px;
+        width: 45%;
     }
 }

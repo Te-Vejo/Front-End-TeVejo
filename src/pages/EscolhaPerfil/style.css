@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 
-.App {
+.AppEscolhaPerfil {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,7 +11,7 @@
     background-color: #F2E7E7;
 }
 
-h1 {
+.TituloEscolhadoPequeno{
     margin-bottom: 70px; /*ta foda alinhar o title*/
     color: black;
 }

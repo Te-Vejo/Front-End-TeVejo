@@ -16,10 +16,10 @@ function AppRoutes(){
             <Route path='/' element = {<Home/>}/>
 
             <Route path='/cadastro' element = {<Cadastro/>}/>
-            <Route path='/cadastro-kid' element = {<CadastroKid/>}/>
+            <Route path='/cadastroKid' element = {<CadastroKid/>}/>
             <Route path='/login' element = {<Login/>}/>
         
-            <Route path='/perfils' element = {<EscolhaPerfil/>}/>
+            <Route path='/escolhaPerfil' element = {<EscolhaPerfil/>}/>
 
             <Route path='/ia' element = {<IA/>}/>
             <Route path='/sobre' element = {<Sobre/>}/>

@@ -5,12 +5,14 @@
     border: none;
     margin: 0px;
     box-sizing: border-box;
-    font-family: 'Poppins',sans-serif;
 }
-h1{
+
+.tituloCadastroKid{
+    font-size: 30px;
     font-weight: 500;
     font-size: 40px;
     color: #ffff;
+    margin-bottom: 40px;
     z-index: 2;
 }
 .fundoGeralTelaCadastro{

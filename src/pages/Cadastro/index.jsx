@@ -1,6 +1,6 @@
 import './style.css'
-import fundofamily from './IMG/fundofamily.png'
-import logo from './IMG/logo.png'
+import fundofamily from '../../assets/images/imagemCadastro/fundofamily.png'
+import logo from '../../assets/images/logo/logoTelaCadastro.png'
 import { Link } from 'react-router-dom';
 
 function Cadastro() {
@@ -13,7 +13,7 @@ function Cadastro() {
 
                     <div className="formularioCadastroAdulto">
                         <form method="post">
-                            <h1>Cadastre-se</h1>
+                            <h1 className='tituloCadastroAdulto'>Cadastre-se</h1>
                             <input className="entrada" type="text" placeholder="  Nome" />
                             <br />
                             <input className="entrada" type="email" placeholder="  E-mail" />
