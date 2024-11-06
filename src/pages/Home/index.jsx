@@ -2,16 +2,20 @@ import './style.css';
 import NavbarPadrao from '../../components/navbar';
 import FooterPadrao from '../../components/footer';
 import CardJogo from '../../components/cardJogos/CardJogo';
+import CardPlano from '../../components/cardPlanos/CardPlano';
 import { Link } from 'react-router-dom';
-import imgSegundoJogo from '../../assets/images/imagensHome/imgSegundoJogo.png';
-import imgTerceiroJogo from '../../assets/images/imagensHome/imgTerceiroJogo.png';
+import imgPrimeiroJogo from '../../assets/images/imagensHome/ImgJogo01.png';
+import imgSegundoJogo from '../../assets/images/imagensHome/ImgJogo02.png';
+import imgTerceiroJogo from '../../assets/images/imagensHome/ImgJogo03.jpg';
+
+
 
 function Home(){
     return(
         <>
         <NavbarPadrao/>
 
-        <div className='primeiraSeccaoHome'>
+        <section className='primeiraSeccaoHome'>
             <div className="imgPrimeiraSeccaoHome">
                 <div className='TxtPrimeiraSeccaoHome'>
                        <h1 className='Titulo01Home'>Olhos saudáveis, infância feliz.</h1>
@@ -24,9 +28,9 @@ function Home(){
                     {<Link to={"/cadastro"} className='linkLoginHome'>Cadastrar-se</Link>}
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div className='segundaSeccaoHome'>
+        <section className='segundaSeccaoHome'>
             <div className="imgsegundaSeccaoHome">
                 <div className="txtSegundaSeccaoHome">
                     <h1 className='Titulo02Home'>LensKids</h1>
@@ -37,29 +41,36 @@ function Home(){
                     {<Link className='linkIaHomeEmDestaque' to={"/ia"}>Testar Agora</Link>}
                 </div>
             </div>
-        </div>
+        </section>
 
         <h2  className="SubtituloParaOsJogos">Jogos que ajudam a ir além da diversão</h2>
+        
+        <p className='txthomeJogo'>Passe o mouse por cima para saber mais!</p>
 
-        <div className="seccaoJogosHome">
+        <section className="seccaoJogosHome">
             <div className='PrimeiroJogoSeccaoHome'>
-                    {<CardJogo/>}
+                    {<CardJogo img = {imgPrimeiroJogo} desc = {"Olá, detetive! Prepare-se para o Jogo de Distinção de Detalhes, onde sua missão é encontrar objetos e detalhes escondidos em imagens coloridas!"} corFundo ={"#360568"}/>}
                     <p className='descricaoPrimeiroJogoHome'>Letras Secretas</p>
             </div>
             <div className='SegundoJogoSeccaoHome'>
-                <img src={imgSegundoJogo} alt="Imagem do jogo caça aos detalhes" height={255} />
+                {<CardJogo img = {imgSegundoJogo} desc = {"Pequenos exploradores das letras! Um jogo super divertido para ajudar você a reconhecer as letras de forma rápida e emocionante."} corFundo = {"#5E6406"}/>}
                 <p className='descricaoSegundoJogoHome'>Caça aos Detalhes</p>
             </div>
             <div className='TerceiroJogoSeccaoHome'>
-                <img src={imgTerceiroJogo} alt="Imagem do jogo movimentar-se" height={255} />
+                {<CardJogo img = {imgTerceiroJogo} desc = {"Prepare-se para o Jogo de Seguir o Movimento! Aqui, você vai se divertir seguindo uma figura que se move na tela."} corFundo = {"#C71874"}/>}
                 <p className='descricaoTerceiroJogoHome'>Movimentar-se</p>
             </div>
-        </div>
-        <div className='ContainerlinkParaJogo'>
-                {<Link className='linkParaOsJogosHome' to={"/jogos"}>PARA JOGAR E CONHECER MAIS jOGOS CLIQUE AQUI!</Link>}
-        </div>
+        </section>
+        <section className='ContainerlinkParaJogo'>
+                {<Link className='linkParaOsJogosHome' to={"/jogos"}>PARA CONHECER MAIS JOGOS CLIQUE AQUI!</Link>}
+        </section>
 
-        <h2  className="SubtituloParaOsJogos">Olhe e escolha o plano</h2>
+        <h2 className="SubtituloParaOsJogos">Olhe e escolha o plano</h2>
+
+        <section className='QuartaSeccaoHome'> 
+            <CardPlano ValorPlano={"R$ 00,00/Mês"} TipoPlano={"Grátis"}/>
+            <CardPlano/>
+        </section>
         
         <FooterPadrao/>
         </>

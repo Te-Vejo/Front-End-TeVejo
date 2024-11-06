@@ -120,13 +120,20 @@
     color: #2B616D;
 }
 
+.txthomeJogo{
+    text-align: center;
+    margin: 1em 0em 1em 0em;
+    font-size: 21px;
+    color: #2B616D;
+}
+
 .seccaoJogosHome{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
     height: 20em;
-    margin: 45px 0px 20px 0px;
+    margin: 10px 0px 20px 0px;
 
     font-family: 'Montserrat', sans-serif ;
 }
@@ -138,7 +145,7 @@
     background-color: white;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .descricaoPrimeiroJogoHome{
@@ -184,7 +191,7 @@
 .linkParaOsJogosHome{
     display: block;
     background-color: #2FA5CA;
-    width: 45em;
+    width: 30em;
     height: 2em;
     text-align: center;
     padding: 5px;
@@ -198,4 +205,14 @@
     text-decoration: underline;
     background-color: whitesmoke;
     color: #2B616D;
+}
+
+.QuartaSeccaoHome{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 20em;
+    margin: 30px 0px 0px 0px;
+    font-family: 'Montserrat', sans-serif;
 }
