@@ -61,8 +61,9 @@
   }
 
   .ConteudoPlano {
-    font-size: 20px;
-    font-weight: bolder;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
   }
 
   .TipoPlano{
@@ -72,6 +73,28 @@
   }
 
   .PasseMouse{
-    font-size: 12px;
+    font-size: 16px;
     text-align: center;
+  }
+
+  .tituloCardPlano{
+    padding-left: 30px;
+    font-weight: 700;
+  }
+
+  .ListaCardPlano{
+    padding-left: 24px;
+    list-style: none;
+    line-height: 35px;
+  }
+
+  .LinkCardPlano{
+    text-align: center;
+    text-decoration: none;
+    width: 13em;
+    background-color: #000;
+    padding: 10px;
+    color: white;
+    border-radius: 40px;
+    margin-left: 21px;
   }

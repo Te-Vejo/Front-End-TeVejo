@@ -65,11 +65,12 @@ function Home(){
                 {<Link className='linkParaOsJogosHome' to={"/jogos"}>PARA CONHECER MAIS JOGOS CLIQUE AQUI!</Link>}
         </section>
 
-        <h2 className="SubtituloParaOsJogos">Olhe e escolha o plano</h2>
+        <h2 className="SubtituloParaOsPlanos">Olhe e escolha o plano</h2>
 
         <section className='QuartaSeccaoHome'> 
-            <CardPlano ValorPlano={"R$ 00,00/Mês"} TipoPlano={"Grátis"}/>
-            <CardPlano/>
+            <CardPlano ValorPlano={"R$ 00,00/Mês"} TipoPlano={"Free"} bene01={"Acesso aos blogs"} bene02 = {"LensKids: Teste grátis"} bene03={"2 jogos grátis"} bene04={"Realidade aumentada"} caminhoBtn={"/cadastro"} txtBtn={"Cadastrar-se"}/>
+
+            <CardPlano ValorPlano={"R$ 29,00/Mês"} TipoPlano={"Plus"} bene01={"Sem anúncios"} bene02 = {"LensKids: Ilimitado"} bene03={"Jogos liberados"} bene04={"Ícones exclusivos"} caminhoBtn={"/"} txtBtn={"Assinar agora"}/>
         </section>
         
         <FooterPadrao/>
