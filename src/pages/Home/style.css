@@ -49,18 +49,29 @@
 .linkLoginHome, .linkIaHomeEmDestaque{
     display: block;
     text-decoration: none;
-    width: 140px;
-    height: 25px;
+    width: 154px;
+    height: 28px;
     background-color: #ffffff;
     text-align: center;
-    color: #2B616D;
+    color: #000000a6;
     border-radius: 20px;
-    font-weight: 500;
+    font-weight: 600;
+    padding: 3px;
 }
 
-.linkLoginHome:hover, .linkIaHomeEmDestaque:hover{
-    background-color: #2B616D;
-    color: #ffffff;
+.linkLoginHome:hover{
+    transform: translate(0px, -3px);
+    color: #59D1F6;
+
+    transition: 0.5s ease-in-out;
+}
+
+.linkIaHomeEmDestaque:hover{
+    transform: translate(0px, -3px);
+    background-color: white !important;
+    color: #59D1F6 !important;
+
+    transition: 0.5s ease-in-out;
 }
 
 .segundaSeccaoHome{
@@ -69,7 +80,7 @@
     justify-content: center;
     width: 100%;
     height: 20em;
-    margin: 25px 0px 25px 0px;
+    margin: -30px 0px 20px 0px;
 
     font-family: 'Montserrat', sans-serif ;
 }
@@ -118,6 +129,7 @@
 .SubtituloParaOsJogos{
     text-align: center;
     color: #2B616D;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .txthomeJogo{
@@ -125,6 +137,7 @@
     margin: 1em 0em 1em 0em;
     font-size: 21px;
     color: #2B616D;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .seccaoJogosHome{
@@ -206,20 +219,24 @@
     background-color: whitesmoke;
     color: #2B616D;
 }
+
 .SubtituloParaOsPlanos{
+    font-size: 3em;
     text-align: center;
     color: #2B616D;
-    margin-top: 2em;
-    margin-bottom: 62px;
+    margin-top: 2.5em;
+    margin-bottom: 65px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .QuartaSeccaoHome{
     display: flex;
     align-items: flex-start;
-    justify-content: space-evenly;
     width: 100%;
+    gap: 8em;
     height: 20em;
     margin: 30px 0px 0px 0px;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 2em;
+    justify-content: center;
 }
