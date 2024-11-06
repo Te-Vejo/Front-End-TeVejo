@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+/*tamanho Imagem carrosel width 1510*/
+
+.carousel{
+    margin-top: 3em;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #0D566C;
+}
+
+.carousel-indicators {
+    margin-bottom: -3em;
+}
+
+.carousel-item.active {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-control-next-icon{
+    display: none;
+}
+
+.carousel-control-prev-icon{
+    display: none;
+}
+
+.txtPrimeiroSlide{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #2B616D;
+    font-family: 'montserrat';
+    font-weight: bolder;
+}
+
+.btnCarrosel01{
+    text-decoration: none;
+    color: #000000a6;
+
+    background-color: rgb(255, 255, 255);
+    margin: 0px 15px 0px 15px;
+    width: 150px;
+    border-radius: 40px;
+
+    font-family: 'montserrat';
+    font-weight: 700;
+}
+
+.btnCarrosel01:hover{
+    transform: translate(0px, -3px);
+    color: #59D1F6;
+
+    transition: 0.5s ease-in-out;
+}
+
+
+@media (max-width:1000px){
+    .carousel-item.active{
+        justify-content: left;
+    }
+    .txtPrimeiroSlide{
+        align-items: center;
+        color: white;
+        background-color: #65656594;
+    }
+}

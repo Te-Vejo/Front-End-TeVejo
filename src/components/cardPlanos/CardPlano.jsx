@@ -22,7 +22,7 @@ const CardPlano = (props) => {
 
          <p className='TipoPlano'>{props.TipoPlano}</p>
          </h3>
-
+         
          <p className='PasseMouse'>Passe o mouse ou clique!</p>
          
 

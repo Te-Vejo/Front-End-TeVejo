@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 import imgPrimeiroJogo from '../../assets/images/imagensHome/ImgJogo01.png';
 import imgSegundoJogo from '../../assets/images/imagensHome/ImgJogo02.png';
 import imgTerceiroJogo from '../../assets/images/imagensHome/ImgJogo03.jpg';
+import UncontrolledExample from '../../components/carroselHome/CarroselHome';
 
 
 
@@ -14,21 +15,8 @@ function Home(){
     return(
         <>
         <NavbarPadrao/>
-
-        <section className='primeiraSeccaoHome'>
-            <div className="imgPrimeiraSeccaoHome">
-                <div className='TxtPrimeiraSeccaoHome'>
-                       <h1 className='Titulo01Home'>Olhos saudáveis, infância feliz.</h1>
-
-                       <span className='textoMenorHome'>
-                       Cuidando do olhar de
-                       quem você ama
-                       </span>
-
-                    {<Link to={"/cadastro"} className='linkLoginHome'>Cadastrar-se</Link>}
-                </div>
-            </div>
-        </section>
+       
+        <UncontrolledExample/>
 
         <section className='segundaSeccaoHome'>
             <div className="imgsegundaSeccaoHome">
@@ -53,11 +41,11 @@ function Home(){
                     <p className='descricaoPrimeiroJogoHome'>Letras Secretas</p>
             </div>
             <div className='SegundoJogoSeccaoHome'>
-                {<CardJogo img = {imgSegundoJogo} desc = {"Pequenos exploradores das letras! Um jogo super divertido para ajudar você a reconhecer as letras de forma rápida e emocionante."} corFundo = {"#5E6406"}/>}
+                {<CardJogo img = {imgSegundoJogo} desc = {"Pequenos exploradores das letras! Um jogo super divertido para ajudar você a reconhecer as letras de forma rápida e emocionante."} corFundo = {"#FF592B"}/>}
                 <p className='descricaoSegundoJogoHome'>Caça aos Detalhes</p>
             </div>
             <div className='TerceiroJogoSeccaoHome'>
-                {<CardJogo img = {imgTerceiroJogo} desc = {"Prepare-se para o Jogo de Seguir o Movimento! Aqui, você vai se divertir seguindo uma figura que se move na tela."} corFundo = {"#C71874"}/>}
+                {<CardJogo img = {imgTerceiroJogo} desc = {"Prepare-se para o Jogo de Seguir o Movimento! Aqui, você vai se divertir seguindo uma figura que se move na tela."} corFundo = {"#662200"}/>}
                 <p className='descricaoTerceiroJogoHome'>Movimentar-se</p>
             </div>
         </section>
@@ -68,9 +56,9 @@ function Home(){
         <h2 className="SubtituloParaOsPlanos">Olhe e escolha o plano</h2>
 
         <section className='QuartaSeccaoHome'> 
-            <CardPlano ValorPlano={"R$ 00,00/Mês"} TipoPlano={"Free"} bene01={"Acesso aos blogs"} bene02 = {"LensKids: Teste grátis"} bene03={"2 jogos grátis"} bene04={"Realidade aumentada"} caminhoBtn={"/cadastro"} txtBtn={"Cadastrar-se"} CorfundoCartao = {"#FFB800"}/>
+            <CardPlano ValorPlano={"R$ 00,00/Mês"} TipoPlano={"Free"} bene01={"Acesso aos blogs"} bene02 = {"LensKids: Teste grátis"} bene03={"2 jogos grátis"} bene04={"Realidade aumentada"} caminhoBtn={"/cadastro"} txtBtn={"Cadastrar-se"} CorfundoCartao = {"#FFB800"} CorfundoCartao02 = {"#ffb80059"}/>
 
-            <CardPlano ValorPlano={"R$ 29,00/Mês"} TipoPlano={"Plus"} bene01={"Sem anúncios"} bene02 = {"LensKids: Ilimitado"} bene03={"Jogos liberados"} bene04={"Ícones exclusivos"} caminhoBtn={"/"} txtBtn={"Assinar agora"} CorfundoCartao = {"#C71874"}/>
+            <CardPlano ValorPlano={"R$ 29,00/Mês"} TipoPlano={"Plus"} bene01={"Sem anúncios"} bene02 = {"LensKids: Ilimitado"} bene03={"Jogos liberados"} bene04={"Ícones exclusivos"} caminhoBtn={"/"} txtBtn={"Assinar agora"} CorfundoCartao = {"#65d6fa"} CorfundoCartao02 = {"#65d6fa66"}/>
         </section>
         
         <FooterPadrao/>
