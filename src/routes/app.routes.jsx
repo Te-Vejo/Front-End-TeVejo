@@ -9,6 +9,7 @@ import Jogos from '../pages/Jogos';
 import Sobre from '../pages/Sobre';
 import Blog from '../pages/Blog';
 import EscolhaPerfil from '../pages/EscolhaPerfil';
+import NossaEquipe from '../pages/NossaEquipe';
 
 function AppRoutes(){
     return(
@@ -19,6 +20,7 @@ function AppRoutes(){
             <Route path='/cadastroKid' element = {<CadastroKid/>}/>
             <Route path='/login' element = {<Login/>}/>
         
+            <Route path='/nossaEquipe' element = {<NossaEquipe/>}/>
             <Route path='/escolhaPerfil' element = {<EscolhaPerfil/>}/>
 
             <Route path='/ia' element = {<IA/>}/>

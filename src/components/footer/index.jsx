@@ -40,7 +40,7 @@ function FooterPadrao() {
 
       <div className="linkSobreEquipeFooter">
         {
-          <Link to={"/sobre"} className="btnFooter">
+          <Link to={"/nossaEquipe"} className="btnFooter">
             Conheça nossa equipe
           </Link>
         }
