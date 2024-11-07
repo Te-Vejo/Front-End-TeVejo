@@ -10,7 +10,8 @@ function NossaEquipe(){
     return(
         <>
         <nav className='topo'>
-          <img src={imgLogo} width={90} height={90} alt="" />
+
+        <img src={imgLogo} width={90} height={90} alt="logo da TeVejo" />
 
           <h1 className='TituloSobreEquipe'>Conheça nossa Equipe</h1>
 
@@ -19,7 +20,32 @@ function NossaEquipe(){
 
         <div className='conteudoNossaEquipe'>
 
-          <div className='linhaCard'></div>
+          <div className='linhaCard'>
+            {/* <div className="cardsPerfil"></div>
+            <div className="cardsPerfil"></div>
+            <div className="cardsPerfil"></div>
+            <div className="cardsPerfil"></div> */}
+
+            {<CardEquipe className = "cardsPerfil"/>}
+            {<CardEquipe className = "cardsPerfil"/>}
+            {<CardEquipe className = "cardsPerfil"/>}
+            {<CardEquipe className = "cardsPerfil"/>}
+            
+          </div>
+
+          <div className='linhaCard'>
+            {/* <div className="cardsPerfil"></div>
+            <div className="cardsPerfil"></div>
+            <div className="cardsPerfil"></div>
+            <div className="cardsPerfil"></div> */}
+
+            {<CardEquipe className = "cardsPerfil"/>}
+            {<CardEquipe className = "cardsPerfil"/>}
+            {<CardEquipe className = "cardsPerfil"/>}
+            {<CardEquipe className = "cardsPerfil"/>}
+            
+          </div>
+
 
         </div>
         </>
