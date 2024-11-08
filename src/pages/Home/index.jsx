@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 import imgPrimeiroJogo from '../../assets/images/imagensHome/ImgJogo01.png';
 import imgSegundoJogo from '../../assets/images/imagensHome/ImgJogo02.png';
 import imgTerceiroJogo from '../../assets/images/imagensHome/ImgJogo03.jpg';
-import UncontrolledExample from '../../components/carroselHome/CarroselHome';
+import CarroselHome from '../../components/carroselHome/CarroselHome';
 
 
 
@@ -16,7 +16,7 @@ function Home(){
         <>
         <NavbarPadrao/>
        
-        <UncontrolledExample/>
+        <CarroselHome/>
 
         <section className='segundaSeccaoHome'>
             <div className="imgsegundaSeccaoHome">

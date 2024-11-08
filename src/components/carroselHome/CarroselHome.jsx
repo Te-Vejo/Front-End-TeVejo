@@ -4,7 +4,7 @@ import './style.css'
 import { Link } from 'react-router-dom';
 
 
-function UncontrolledExample() {
+function CarroselHome() {
   return (
       <Carousel interval={2000}>
         <Carousel.Item>
@@ -36,4 +36,4 @@ function UncontrolledExample() {
   );
 }
 
-export default UncontrolledExample;
+export default CarroselHome;
