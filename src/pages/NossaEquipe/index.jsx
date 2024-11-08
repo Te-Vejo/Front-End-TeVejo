@@ -1,53 +1,34 @@
 import './style.css';
-import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/Navbar';
-import imgLogo from '../../assets/images/logo/logo.svg'
-import { Link } from 'react-router-dom';
 import CardEquipe from '../../components/CardEquipe/CardEquipe';
+import NavbarPadrao from '../../components/navbar';
+import FooterPadrao from '../../components/footer';
 
 
 function NossaEquipe(){
     return(
         <>
-        <nav className='topo'>
 
-        <img src={imgLogo} width={90} height={90} alt="logo da TeVejo" />
-
-          <h1 className='TituloSobreEquipe'>Conheça nossa Equipe</h1>
-
-          <p className='txtInvisel'></p>
-        </nav>
-
-        <div className='conteudoNossaEquipe'>
+          <NavbarPadrao/>
 
           <div className='linhaCard'>
-            {/* <div className="cardsPerfil"></div>
-            <div className="cardsPerfil"></div>
-            <div className="cardsPerfil"></div>
-            <div className="cardsPerfil"></div> */}
 
-            {<CardEquipe className = "cardsPerfil"/>}
-            {<CardEquipe className = "cardsPerfil"/>}
-            {<CardEquipe className = "cardsPerfil"/>}
-            {<CardEquipe className = "cardsPerfil"/>}
+            {<CardEquipe className = "cardsPerfil" nome={"Gustavo"} funcao={"Product Owner"}/>}
+            {<CardEquipe className = "cardsPerfil" nome={"Gabriel"} funcao={"Scrum Master"}/>}
+            {<CardEquipe className = "cardsPerfil" nome={"Pedro"}/>}
+            {<CardEquipe className = "cardsPerfil" nome={"Lívea"}/>}
             
           </div>
 
           <div className='linhaCard'>
-            {/* <div className="cardsPerfil"></div>
-            <div className="cardsPerfil"></div>
-            <div className="cardsPerfil"></div>
-            <div className="cardsPerfil"></div> */}
 
-            {<CardEquipe className = "cardsPerfil"/>}
-            {<CardEquipe className = "cardsPerfil"/>}
-            {<CardEquipe className = "cardsPerfil"/>}
-            {<CardEquipe className = "cardsPerfil"/>}
+            {<CardEquipe className = "cardsPerfil" nome={"Caio"}/>}
+            {<CardEquipe className = "cardsPerfil" nome={"Melissa"}/>}
+            {<CardEquipe className = "cardsPerfil" nome={"Davi"}/>}
+            {<CardEquipe className = "cardsPerfil" nome={"Sônia"}/>}
             
           </div>
 
-
-        </div>
+          <FooterPadrao/>
         </>
     )
 }
