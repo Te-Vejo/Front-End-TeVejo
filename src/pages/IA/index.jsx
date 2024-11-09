@@ -6,33 +6,22 @@ function IA(){
     return(
         <>
         <NavbarPadrao/>
-        <h1 id='tituloIA'>TELA DE IA</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, omnis provident? Eum amet commodi doloremque, aperiam sunt error optio vitae, sequi rem quia, ipsum illum ipsa possimus deserunt. Nisi, similique.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, omnis provident? Eum amet commodi doloremque, aperiam sunt error optio vitae, sequi rem quia, ipsum illum ipsa possimus deserunt. Nisi, similique.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, omnis provident? Eum amet commodi doloremque, aperiam sunt error optio vitae, sequi rem quia, ipsum illum ipsa possimus deserunt. Nisi, similique.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, omnis provident? Eum amet commodi doloremque, aperiam sunt error optio vitae, sequi rem quia, ipsum illum ipsa possimus deserunt. Nisi, similique.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, omnis provident? Eum amet commodi doloremque, aperiam sunt error optio vitae, sequi rem quia, ipsum illum ipsa possimus deserunt. Nisi, similique.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, omnis provident? Eum amet commodi doloremque, aperiam sunt error optio vitae, sequi rem quia, ipsum illum ipsa possimus deserunt. Nisi, similique.</p>
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, omnis provident? Eum amet commodi doloremque, aperiam sunt error optio vitae, sequi rem quia, ipsum illum ipsa possimus deserunt. Nisi, similique.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, omnis provident? Eum amet commodi doloremque, aperiam sunt error optio vitae, sequi rem quia, ipsum illum ipsa possimus deserunt. Nisi, similique.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, omnis provident? Eum amet commodi doloremque, aperiam sunt error optio vitae, sequi rem quia, ipsum illum ipsa possimus deserunt. Nisi, similique.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, omnis provident? Eum amet commodi doloremque, aperiam sunt error optio vitae, sequi rem quia, ipsum illum ipsa possimus deserunt. Nisi, similique.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, omnis provident? Eum amet commodi doloremque, aperiam sunt error optio vitae, sequi rem quia, ipsum illum ipsa possimus deserunt. Nisi, similique.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, omnis provident? Eum amet commodi doloremque, aperiam sunt error optio vitae, sequi rem quia, ipsum illum ipsa possimus deserunt. Nisi, similique.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, omnis provident? Eum amet commodi doloremque, aperiam sunt error optio vitae, sequi rem quia, ipsum illum ipsa possimus deserunt. Nisi, similique.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, omnis provident? Eum amet commodi doloremque, aperiam sunt error optio vitae, sequi rem quia, ipsum illum ipsa possimus deserunt. Nisi, similique.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, omnis provident? Eum amet commodi doloremque, aperiam sunt error optio vitae, sequi rem quia, ipsum illum ipsa possimus deserunt. Nisi, similique.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, omnis provident? Eum amet commodi doloremque, aperiam sunt error optio vitae, sequi rem quia, ipsum illum ipsa possimus deserunt. Nisi, similique.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, omnis provident? Eum amet commodi doloremque, aperiam sunt error optio vitae, sequi rem quia, ipsum illum ipsa possimus deserunt. Nisi, similique.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, omnis provident? Eum amet commodi doloremque, aperiam sunt error optio vitae, sequi rem quia, ipsum illum ipsa possimus deserunt. Nisi, similique.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, omnis provident? Eum amet commodi doloremque, aperiam sunt error optio vitae, sequi rem quia, ipsum illum ipsa possimus deserunt. Nisi, similique.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, omnis provident? Eum amet commodi doloremque, aperiam sunt error optio vitae, sequi rem quia, ipsum illum ipsa possimus deserunt. Nisi, similique.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, omnis provident? Eum amet commodi doloremque, aperiam sunt error optio vitae, sequi rem quia, ipsum illum ipsa possimus deserunt. Nisi, similique.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, omnis provident? Eum amet commodi doloremque, aperiam sunt error optio vitae, sequi rem quia, ipsum illum ipsa possimus deserunt. Nisi, similique.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, omnis provident? Eum amet commodi doloremque, aperiam sunt error optio vitae, sequi rem quia, ipsum illum ipsa possimus deserunt. Nisi, similique.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, omnis provident? Eum amet commodi doloremque, aperiam sunt error optio vitae, sequi rem quia, ipsum illum ipsa possimus deserunt. Nisi, similique.</p>
         
+        <section className='imgPrincipalTelaIa'>
+            {/*A imagem vai como background dessa section*/}
+        </section>
+
+        <div className='AlinhaTextoNossaEquipe'>
+            <h1 className='tituloNossaEquipe'>TESTE O NOSSO FILTRO OU IA</h1>
+        </div>
+
+        <section className="seccaoOculosIA">
+            <div className="lenteEsquerda">
+                
+            </div>
+        </section>
+
+
         <FooterPadrao/>
         </>
     )
