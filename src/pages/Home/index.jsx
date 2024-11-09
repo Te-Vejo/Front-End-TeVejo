@@ -37,11 +37,11 @@ function Home(){
 
         <section className="seccaoJogosHome">
             <div className='PrimeiroJogoSeccaoHome'>
-                    {<CardJogo img = {imgPrimeiroJogo} desc = {"Olá, detetive! Prepare-se para o Jogo de Distinção de Detalhes, onde sua missão é encontrar objetos e detalhes escondidos em imagens coloridas!"} corFundo ={"#360568"}/>}
+                    {<CardJogo img = {imgPrimeiroJogo} desc = {"Pequenos exploradores das letras! Um jogo super divertido para ajudar você a reconhecer as letras de forma rápida e emocionante. "} corFundo ={"#360568"}/>}
                     <p className='descricaoPrimeiroJogoHome'>Letras Secretas</p>
             </div>
             <div className='SegundoJogoSeccaoHome'>
-                {<CardJogo img = {imgSegundoJogo} desc = {"Pequenos exploradores das letras! Um jogo super divertido para ajudar você a reconhecer as letras de forma rápida e emocionante."} corFundo = {"#FF592B"}/>}
+                {<CardJogo img = {imgSegundoJogo} desc = {"Olá, detetive! Prepare-se para o Jogo de Distinção de Detalhes, onde sua missão é encontrar objetos e detalhes escondidos em imagens coloridas!"} corFundo = {"#FF592B"}/>}
                 <p className='descricaoSegundoJogoHome'>Caça aos Detalhes</p>
             </div>
             <div className='TerceiroJogoSeccaoHome'>
