@@ -10,6 +10,10 @@ function NossaEquipe(){
 
           <NavbarPadrao/>
 
+          <div className='AlinhaTextoNossaEquipe'>
+            <h1 className='tituloNossaEquipe'>CONHEÇA NOSSA EQUIPE</h1>
+          </div>
+
           <div className='linhaCard'>
 
             {<CardEquipe className = "cardsPerfil" nome={"Gustavo"} funcao={"Product Owner"} imgPerfil={"https://s3-alpha-sig.figma.com/img/3d75/95dc/df9a61c67741bbe5d1dc4a893e865447?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TkIstnCR1wV~ud7l0R2GSitPsGY0nSgSDBi7x2Zr3BD~J~AyWW1f86vIF-l2PMRhRO5iN3bjai2EG3jxbyqvvSVG36gnTGwXfNmzlVmlZ6aGHxvlA7722-xR5R04mbpB-LJsITNdsOEOTnoUkEYRS9IgAdvYvb1HRpeuhCt9epVLmb8gs-iNIB2EcNQzKWQgqk2rhfDl45HdrYTe625EcVEHQ~68yK1s8uSsgU3rVzVdu~h84E2qyjdH0DP837mOh8a33-F94yY-IZwdgHSKgA-k6VihWdYrEx9UGT3LL4jMflpBGMeGPdyUWhupzEkwox9KTSj81yUu2m~QlMlCjw__"}/>}

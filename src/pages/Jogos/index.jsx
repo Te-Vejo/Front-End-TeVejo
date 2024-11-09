@@ -26,7 +26,7 @@ function Jogos(){
             </div>
         </section>
 
-        <section className='seccaoPrimeiroJogo'>
+        <section className='seccaoSegundoJogo'>
             <div className='conteudoJogo01'>
                 <div className="descjogo01Jogo">
                     <p className='textDescJogos01'>Pequenos exploradores das letras! você está prestes a entrar no mundo cheio de “Letras Secretas". </p>
@@ -38,7 +38,7 @@ function Jogos(){
             <div className='imgJogo02'></div>
         </section>
 
-        <section className='seccaoPrimeiroJogo'>
+        <section className='seccaoTerceiroJogo'>
             <div className='imgJogo03'></div>
             <div className='conteudoJogo01'>
                 <div className="descjogo01Jogo">
@@ -49,7 +49,7 @@ function Jogos(){
             </div>
         </section>
         
-        <section className='seccaoPrimeiroJogo'>
+        <section className='seccaoQuartoJogo'>
             <div className='conteudoJogo01'>
                 <div className="descjogo01Jogo">
                     <p className='textDescJogos01'>Pequenos exploradores das letras! você está prestes a entrar no mundo cheio de “Letras Secretas". </p>
