@@ -32,7 +32,7 @@ function Sobre() {
                     <div id="circulos" className="circulo-externo">
                         <div id="circulos" className="circulo-medio">
                             <div id="circulos" className="circulo-interno">
-                                <img className="meninoCirculoAmarelo" src={fotoMenino} alt="" />
+                                <img className="meninoCirculoAmarelo" src={fotoMenino} alt="foto de menino sorrindo" />
                             </div>
                         </div>
                         <div id="circulos" className="circulo-azul-externo">
@@ -52,7 +52,7 @@ function Sobre() {
                 <div className="controleChamadoTexto">
                     <h2 className="tituloVisao">E QUANTO A NOSSA VISÃO?</h2>
                     <div className="backgroundVisao">
-                        <p>Nossa visão para o futuro é estar em escolas e comunidades, levando saúde visual e bem-estar a todos!</p>
+                        <p className='TxtVisaoTelaSobre'>Nossa visão para o futuro é estar em escolas e comunidades, levando saúde visual e bem-estar a todos!</p>
                     </div>
                     <div className="controleTextoValores">
                         <h2 className="textoSobreValores">NOSSOS VALORES SÃO A EDUCAÇÃO, INOVAÇÃO, ACESSIBILIDADE, EMPATIA E COLABORAÇÃO</h2>

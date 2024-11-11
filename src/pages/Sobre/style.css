@@ -1,3 +1,8 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 * {
     padding: 0px;
     border: none;
@@ -41,6 +46,7 @@
     text-align: center;
     padding-right: 10px;
     width: 700px;
+    font-family: 'Montserrat',sans-serif;
 }
 
 .linhaVertical {
@@ -54,6 +60,7 @@
     padding-left: 25px;
     font-weight: 600;
     text-align: justify;
+    font-family: 'Montserrat',sans-serif;
 }
 
 .controlTextosImagensVisao {
@@ -175,6 +182,12 @@
     font-size: 20px;
     color: #59D1F6;
     text-align: left;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.TxtVisaoTelaSobre{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
 .espacoEmBrancoPImagens {
@@ -199,6 +212,7 @@
     font-size: 30px;
     color: #59D1F6;
     position: absolute;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .linhaHorizontalRosa {
@@ -226,6 +240,7 @@
     background-color: #59D1F6;
     color: #FFF;
     margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .elementosNossaOrigem {
@@ -243,6 +258,10 @@
     padding: 20px;
     background-color: #FFDF97;
     color: black;
+}
+
+.postItHistoria > p {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .iconesNossaOrigem {
@@ -270,9 +289,10 @@
 .paragraphProa{
     margin-left: 60px;
     text-align: justify;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     width: 600px;
+    font-family: 'Montserrat', sans-serif;
 }
 .linhaVerticalProa{
     width: 4px;

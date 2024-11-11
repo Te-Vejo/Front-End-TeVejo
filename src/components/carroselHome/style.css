@@ -39,22 +39,90 @@
     font-weight: bolder;
 }
 
+.txtSegundoSlide{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #aa4a1b;
+    font-family: 'montserrat';
+    font-weight: bolder;
+}
+
+.txtTerceiroSlide{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #ff7000;
+    font-family: 'montserrat';
+    font-weight: bolder;
+}
+
 .btnCarrosel01{
     text-decoration: none;
     color: #000000a6;
 
     background-color: rgb(255, 255, 255);
     margin: 0px 15px 0px 15px;
-    width: 150px;
+    width: 21.5em;
     border-radius: 40px;
 
     font-family: 'montserrat';
     font-weight: 700;
+    height: 2em;
+    padding: 5px;
 }
+
+.btnCarrosel02{
+    text-decoration: none;
+    color: #000000a6;
+
+    background-color: rgb(255, 255, 255);
+    margin: 0px 15px 0px 15px;
+    width: 21.5em;
+    border-radius: 40px;
+
+    font-family: 'montserrat';
+    font-weight: 700;
+    height: 2em;
+    padding: 5px;
+}
+
+.btnCarrosel03{
+    text-decoration: none;
+    color: #000000a6;
+
+    background-color: rgb(255, 255, 255);
+    margin: 0px 15px 0px 15px;
+    width: 21.5em;
+    border-radius: 40px;
+
+    font-family: 'montserrat';
+    font-weight: 700;
+    height: 2em;
+    padding: 5px;
+}
+
 
 .btnCarrosel01:hover{
     transform: translate(0px, -3px);
-    color: #59D1F6;
+    color: white;
+    background-color: #0D566C;
+
+    transition: 0.5s ease-in-out;
+}
+
+.btnCarrosel02:hover{
+    transform: translate(0px, -3px);
+    color: white;
+    background-color: #aa4a1b;
+
+    transition: 0.5s ease-in-out;
+}
+
+.btnCarrosel03:hover{
+    transform: translate(0px, -3px);
+    color: white;
+    background-color: #ff7000;
 
     transition: 0.5s ease-in-out;
 }
@@ -65,9 +133,13 @@
     .carousel-item.active{
         justify-content: left;
     }
-    .txtPrimeiroSlide{
+    .txtPrimeiroSlide, .txtSegundoSlide, .txtTerceiroSlide{
         align-items: center;
         color: white;
         background-color: #65656594;
+    }
+
+    .btnCarrosel01, .btnCarrosel02, .btnCarrosel03{
+        width: 10em;
     }
 }
