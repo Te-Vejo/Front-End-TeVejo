@@ -10,6 +10,7 @@ import Sobre from '../pages/Sobre';
 import Blog from '../pages/Blog';
 import EscolhaPerfil from '../pages/EscolhaPerfil';
 import NossaEquipe from '../pages/NossaEquipe';
+import TesteIa from '../pages/TesteIa';
 
 function AppRoutes(){
     return(
@@ -24,6 +25,8 @@ function AppRoutes(){
             <Route path='/escolhaPerfil' element = {<EscolhaPerfil/>}/>
 
             <Route path='/ia' element = {<IA/>}/>
+            <Route path='/testeIa' element =  {<TesteIa/>}/>
+
             <Route path='/sobre' element = {<Sobre/>}/>
             <Route path='/jogos' element = {<Jogos/>}/>
             <Route path='/blog' element = {<Blog/>}/>

@@ -19,20 +19,22 @@ function Jogos(){
             <div className='imgJogo01'></div>
             <div className='conteudoJogo01'>
                 <div className="descjogo01Jogo">
-                    <p className='textDescJogos01'>Pequenos exploradores das letras! você está prestes a entrar no mundo cheio de “Letras Secretas". </p>
-                    <p className='textDescJogos02'>Um jogo super divertido para ajudar você a reconhecer as letras de forma rápida e emocionante.</p>
+                    <p className='textDescJogos01'>Pequeno explorador  
+                    você está prestes a entrar em um mundo cheio de <strong>Letras Secretas</strong>. </p>
+                    <p className='textDescJogos02'>
+                    Um jogo divertido para ajudar você a reconhecer o alfabeto de forma rápida e emocionante.</p>
                 </div>
-                {<Link to={"/letrasSecretas"} className='btnsJogos'>Letras Secretas</Link>}
+                {<Link to={"/DesafioLetras"} className='btnsJogos'>O DESAFIO DAS LETRAS</Link>}
             </div>
         </section>
 
         <section className='seccaoSegundoJogo'>
             <div className='conteudoJogo01'>
                 <div className="descjogo01Jogo">
-                    <p className='textDescJogos01'>Pequenos exploradores das letras! você está prestes a entrar no mundo cheio de “Letras Secretas". </p>
-                    <p className='textDescJogos02'>Um jogo super divertido para ajudar você a reconhecer as letras de forma rápida e emocionante.</p>
+                    <p className='textDescJogos01'>Prepare-se para uma aventura em <strong>Fotografia Florestal</strong>.</p>
+                    <p className='textDescJogos02'> Como o fotógrafo mais corajoso, sua missão é capturar os animais incríveis que se escondem por lá. Pegue sua câmera, porque cada clique é uma nova descoberta!</p>
                 </div>
-                {<Link to={"/cacaDetalhes"} className='btnsJogos'>Caça aos Detalhes</Link>}
+                {<Link to={"/FotografiaFlorestal"} className='btnsJogos'>FOTOGRAFIA FLORESTAL</Link>}
                 
             </div>
             <div className='imgJogo02'></div>
@@ -42,20 +44,20 @@ function Jogos(){
             <div className='imgJogo03'></div>
             <div className='conteudoJogo01'>
                 <div className="descjogo01Jogo">
-                    <p className='textDescJogos01'>Pequenos exploradores das letras! você está prestes a entrar no mundo cheio de “Letras Secretas". </p>
-                    <p className='textDescJogos02'>Um jogo super divertido para ajudar você a reconhecer as letras de forma rápida e emocionante.</p>
+                    <p className='textDescJogos01'>Os reis precisam de sua ajuda para encontrar um impostor entre os soldados!</p>
+                    <p className='textDescJogos02'>Observe bem as cores das roupas e descubra quem está usando uma cor diferente, como alguém de <strong>Fora do Reino</strong>. Boa sorte na missão!</p>
                 </div>
-                {<Link to={"/movimentar"} className='btnsJogos'>Movimentar-se</Link>}
+                {<Link to={"/foraDoMeuReino"} className='btnsJogos'>FORA DO MEU REINO</Link>}
             </div>
         </section>
         
         <section className='seccaoQuartoJogo'>
             <div className='conteudoJogo01'>
                 <div className="descjogo01Jogo">
-                    <p className='textDescJogos01'>Pequenos exploradores das letras! você está prestes a entrar no mundo cheio de “Letras Secretas". </p>
-                    <p className='textDescJogos02'>Um jogo super divertido para ajudar você a reconhecer as letras de forma rápida e emocionante.</p>
+                    <p className='textDescJogos01'>Bem-vindo, Pequeno Viajante das Estrelas! Prepare-se para uma aventura pelo espaço! </p>
+                    <p className='textDescJogos02'>Agarre-se a uma estrela e viaje em <strong>Uma Jornada</strong> entre planetas coloridos, cometas brilhantes e constelações misteriosas.</p>
                 </div>
-                {<Link to={"/letrasSecretas"} className='btnsJogos'>Letras Secretas</Link>}
+                {<Link to={"/JornadaEstrela"} className='btnsJogos'>JORNADA COM A ESTRELA</Link>}
                 
             </div>
             <div className='imgJogo04'></div>

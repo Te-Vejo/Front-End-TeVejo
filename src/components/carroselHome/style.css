@@ -34,7 +34,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    color: #2B616D;
+    color: #ffffff;
     font-family: 'montserrat';
     font-weight: bolder;
 }
@@ -43,7 +43,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    color: #aa4a1b;
+    color: #ffffff;
     font-family: 'montserrat';
     font-weight: bolder;
 }
@@ -52,42 +52,21 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    color: #ff7000;
+    color: #ffffff;
     font-family: 'montserrat';
     font-weight: bolder;
 }
 
-.btnCarrosel01{
-    text-decoration: none;
-    color: #000000a6;
-
-    background-color: rgb(255, 255, 255);
-    margin: 0px 15px 0px 15px;
-    width: 21.5em;
-    border-radius: 40px;
-
+.txtQuartoSlide{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #ffffff;
     font-family: 'montserrat';
-    font-weight: 700;
-    height: 2em;
-    padding: 5px;
+    font-weight: bolder;
 }
 
-.btnCarrosel02{
-    text-decoration: none;
-    color: #000000a6;
-
-    background-color: rgb(255, 255, 255);
-    margin: 0px 15px 0px 15px;
-    width: 21.5em;
-    border-radius: 40px;
-
-    font-family: 'montserrat';
-    font-weight: 700;
-    height: 2em;
-    padding: 5px;
-}
-
-.btnCarrosel03{
+.btnCarrosel01, .btnCarrosel02, .btnCarrosel03, .btnCarrosel04{
     text-decoration: none;
     color: #000000a6;
 
@@ -127,19 +106,36 @@
     transition: 0.5s ease-in-out;
 }
 
+.btnCarrosel04:hover{
+    transform: translate(0px, -3px);
+    color: white;
+    background-color:#4d84cc ;
 
+    transition: 0.5s ease-in-out;
+}
+
+
+@media (max-width:1920px){
+    .txtPrimeiroSlide, .txtSegundoSlide, .txtTerceiroSlide, .txtQuartoSlide{
+        margin-left: 10em;
+    }
+
+    .btnCarrosel01, .btnCarrosel02, .btnCarrosel03, .btnCarrosel04{
+        margin-left: 10em;
+    }
+}
 
 @media (max-width:1000px){
     .carousel-item.active{
         justify-content: left;
     }
-    .txtPrimeiroSlide, .txtSegundoSlide, .txtTerceiroSlide{
+    .txtPrimeiroSlide, .txtSegundoSlide, .txtTerceiroSlide, .txtQuartoSlide{
         align-items: center;
         color: white;
         background-color: #65656594;
     }
 
-    .btnCarrosel01, .btnCarrosel02, .btnCarrosel03{
+    .btnCarrosel01, .btnCarrosel02, .btnCarrosel03, .btnCarrosel04{
         width: 10em;
     }
 }

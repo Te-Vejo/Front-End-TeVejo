@@ -124,7 +124,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     color: white;
-    font-size: 25px;    
+    font-size: 24px;    
     margin-left: 2px;
     padding: 17px 0px 0px 17px;
     margin-bottom: 0px;
@@ -134,7 +134,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     color: white;
-    font-size: 25px;
+    font-size: 24px;
     margin-left: 2px;
     padding: 17px 0px 0px 17px 
 
@@ -145,7 +145,7 @@
     text-align: center;
     height: 2em;
     padding: 7px;
-    width: 25em;
+    width: 21em;
     background-color: #1ad4e1;
     font-size: 1.5em;
     text-decoration: none;
@@ -211,7 +211,7 @@
 
     .conteudoJogo01{
         width: 25em;
-        height: 45%;
+        height: 50%;
         gap: 1em;
     }
             

@@ -6,13 +6,11 @@
 }
 
 
-/* .imgPrincipalTelaIa{
-    width: 100%; 
-    height: 30em;
-    background: url(../../assets/images/imagemIA/imgPrincipalIA.png) no-repeat center;
-    background-size: contain;
-    margin: 2em 0em 2em 0em;
-} */
+
+
+.tituloIA{
+    margin: 1em 0em 0em 0em !important;
+}
 
 .ContainerIAeFiltro{
     display: flex;
@@ -31,7 +29,7 @@
 }
 
 .FotoOculosIA{
-    width: 80em;
+    width: 68em;
     margin-top: 20em;
     margin-bottom: 15em;
     margin-left: 6em;
@@ -39,32 +37,36 @@
 
 .btnFiltroTelaIa{
     position: absolute;
-    margin-right: 16em;
+    margin-right: 19.5em;
     text-decoration: none;
     font-family: 'Montserrat';
-    font-size: 40px;
+    font-size: 27px;
     background-color: white;
     border-radius: 56px;
-    padding: 19px;
+    padding: 3px;
     font-weight: bolder;
-    width: 5em;
+    width: 7.5em;
+    margin-top: 18px;
     text-align: center;
     color: #000000a6;
+    height: 1.5em;
 }
 
 .btnIaTelaIa{
     position: absolute;
-    margin-left: 17em;
+    margin-left: 21.5em;
     text-decoration: none;
     font-family: 'Montserrat';
-    font-size: 40px;
+    font-size: 27px;
     background-color: white;
     border-radius: 56px;
-    padding: 19px;
+    padding: 2px;
     font-weight: bolder;
-    width: 5em;
+    width: 7.5em;
+    margin-top: 18px;
     text-align: center;
     color: #000000a6;
+    height: 1.5em;
 }
 
 .btnFiltroTelaIa:hover, .btnIaTelaIa:hover{
