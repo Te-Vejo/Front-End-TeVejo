@@ -1,0 +1,7 @@
+#inputImagem{
+    position: absolute;
+    right: 52%;
+    width: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
