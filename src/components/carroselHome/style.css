@@ -114,17 +114,6 @@
     transition: 0.5s ease-in-out;
 }
 
-
-@media (max-width:1920px){
-    .txtPrimeiroSlide, .txtSegundoSlide, .txtTerceiroSlide, .txtQuartoSlide{
-        margin-left: 10em;
-    }
-
-    .btnCarrosel01, .btnCarrosel02, .btnCarrosel03, .btnCarrosel04{
-        margin-left: 10em;
-    }
-}
-
 @media (max-width:1000px){
     .carousel-item.active{
         justify-content: left;
@@ -133,9 +122,16 @@
         align-items: center;
         color: white;
         background-color: #65656594;
+        margin-right: 0em !important;
     }
 
     .btnCarrosel01, .btnCarrosel02, .btnCarrosel03, .btnCarrosel04{
         width: 10em;
+    }
+}
+
+@media (max-width:1920px){
+    .txtPrimeiroSlide, .txtSegundoSlide, .txtTerceiroSlide, .txtQuartoSlide{
+        margin-right: 6em;
     }
 }

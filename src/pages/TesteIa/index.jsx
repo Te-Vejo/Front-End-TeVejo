@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './style.css';
 import NavbarPadrao from '../../components/navbar';
-import FooterPadrao from '../../components/footer';
+
 
 const AnalisadorFacial = () => {
   const [imagemSelecionada, setImagemSelecionada] = useState(null);

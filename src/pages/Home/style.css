@@ -49,7 +49,7 @@
 .imgsegundaSeccaoHome{
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 79%;
     height: 36em;
     border-radius: 25px;
     background-image: url(../../assets/images/imagensHome/meninaSorrindo.png);

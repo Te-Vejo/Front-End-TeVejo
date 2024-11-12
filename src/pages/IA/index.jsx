@@ -25,7 +25,9 @@ function IA(){
             </div>
         </section>
 
-        <FooterPadrao/>
+        <div className='footerALinhadoIaTelaGrande'>
+            <FooterPadrao/>
+        </div>
         </>
     )
 }
