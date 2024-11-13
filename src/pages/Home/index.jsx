@@ -38,7 +38,7 @@ function Home(){
         <section className="seccaoJogosHome">
             <div className='PrimeiroJogoSeccaoHome'>
                     {<CardJogo img = {imgPrimeiroJogo} desc = {"Pequeno explorador você está prestes a entrar em um mundo cheio de Letras Secretas."} corFundo ={"#360568"}/>}
-                    <p className='descricaoPrimeiroJogoHome'>Dessafio das Letras</p>
+                    <p className='descricaoPrimeiroJogoHome'>Desafio das Letras</p>
             </div>
             <div className='SegundoJogoSeccaoHome'>
                 {<CardJogo img = {imgSegundoJogo} desc = {"Prepare-se para uma aventura em Fotografia Florestal. Pegue sua câmera, porque cada clique é uma nova descoberta!"} corFundo = {"#FF592B"}/>}

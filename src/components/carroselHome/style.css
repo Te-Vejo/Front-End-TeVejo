@@ -123,6 +123,7 @@
         color: white;
         background-color: #65656594;
         margin-right: 0em !important;
+        border-radius: 15px;
     }
 
     .btnCarrosel01, .btnCarrosel02, .btnCarrosel03, .btnCarrosel04{
