@@ -32,7 +32,7 @@ const AnalisadorFacial = () => {
           {
             parts: [
               {
-                text: `Você é uma funcionalidade em um site e deve, analisar se há um rosto na imagem, caso haja, verifique o formato do rosto e categorize eles entre (Redondo, Quadrado, Oval e Coração), leve em consideração a largura da testa, formato do queixo e tamanho do nariz. Agora retorne um desses tipos de armação (quadrado, redondo, gatinho e aviador) que combine com tal rosto analisado em formato JSON se não ouver retorne um texto escrevendo um erro: 
+                text: `Você é uma funcionalidade em um site e deve, analisar se há um rosto na imagem, caso haja, verifique o formato do rosto e categorize eles entre (Redondo, Quadrado, Oval e Coração), leve em consideração a largura da testa, formato do queixo e tamanho do nariz. Agora retorne um desses tipos de armação (quadrado, redondo, gatinho ou aviador) que combine com tal rosto analisado em formato JSON se não ouver retorne um texto escrevendo um erro: 
                 {
                   "MelhorArmacao": "<tipo de armação recomendada>"
                 }`
@@ -106,10 +106,16 @@ const AnalisadorFacial = () => {
 
     <NavbarPadrao/>
 
-    <div className="container">
+
+    <section className='explicacaoIA'>
       <h1>Análise Facial</h1>
-      <div className="file-input-wrapper">
-        <button className="btn">Escolher Imagem</button>
+      <p>Escolha uma imagem para analisar a expressão facial.</p>
+    </section>
+
+
+    <section className="containerIA">
+      <div className="BtnEinputIA">
+        <button className="btnEscolheImg">Escolher Imagem</button>
         <input
           type="file"
           id="inputImagem"
@@ -123,7 +129,7 @@ const AnalisadorFacial = () => {
           <img
             id="imagemSelecionada"
             alt="Imagem selecionada"
-            style={{ maxWidth: '100%', height: 'auto' }}
+            style={{ maxWidth: '50%', height: 'auto' }}
             src={imagemSelecionada}
           />
         )}
@@ -136,7 +142,7 @@ const AnalisadorFacial = () => {
           <p><strong>Melhor Armação:</strong> <span id="melhorArmacao">{resultado.MelhorArmacao}</span></p>
         </div>
       )}
-    </div>
+    </section>
 
 
 

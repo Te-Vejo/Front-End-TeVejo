@@ -37,6 +37,7 @@
     color: #ffffff;
     font-family: 'montserrat';
     font-weight: bolder;
+    margin-right: 0px !important;
 }
 
 .txtSegundoSlide{
@@ -46,6 +47,7 @@
     color: #ffffff;
     font-family: 'montserrat';
     font-weight: bolder;
+    margin-right: 0px !important;
 }
 
 .txtTerceiroSlide{
@@ -55,6 +57,7 @@
     color: #ffffff;
     font-family: 'montserrat';
     font-weight: bolder;
+    margin-right: 0px !important;
 }
 
 .txtQuartoSlide{
@@ -64,6 +67,7 @@
     color: #ffffff;
     font-family: 'montserrat';
     font-weight: bolder;
+    margin-right: 0px !important;
 }
 
 .btnCarrosel01, .btnCarrosel02, .btnCarrosel03, .btnCarrosel04{
