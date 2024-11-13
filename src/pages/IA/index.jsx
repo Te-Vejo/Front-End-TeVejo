@@ -21,6 +21,20 @@ function IA(){
             </div>
         </section>
 
+        <section className='segundaSeccaoIA'>
+                <div className="imgSegundaSeccaoIA">
+                    <div className='txtSegundaSeccaoIA'>
+                        <h1 className='Titulo02IA'>Filtro AR</h1>
+                        <div className="txtSegundaSeccaoIA02">
+                            <p className="textoMenorIA2">
+                            Já o nosso filtro de Realidade Aumentada usa a câmera do dispositivo para aplicar, em tempo real, diversos modelos de óculos no rosto do usuário.
+                            </p>
+                            <a href="#filtro" className="linkFiltroTelaIA">Teste já</a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
         <div className='AlinhaTextoNossaEquipe'>
             <h1 className='tituloNossaEquipe tituloIA02'>TESTE A NOSSA IA OU FILTRO</h1>
         </div>
@@ -29,7 +43,7 @@ function IA(){
             <div className="OculosEscolhaIa">
                 <img src={ImgOculos} alt="" className='FotoOculosIA'/>
                 {<Link to={"/filtro"} className='btnFiltroTelaIa' id='ia'>FILTRO</Link>}
-                {<Link to={"/testeIa"} className='btnIaTelaIa'>LENSIFY IA</Link>}
+                {<Link to={"/testeIa"} className='btnIaTelaIa' id='filtro'>LENSIFY IA</Link>}
             </div>
         </section>
 

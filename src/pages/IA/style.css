@@ -14,7 +14,18 @@
     justify-content: center;
     width: 100%;
     height: 30em;
-    margin: 9em 0em 5em 0em;
+    margin: 5em 0em 5em 0em;
+
+    font-family: 'Montserrat', sans-serif ;
+}
+
+.segundaSeccaoIA{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30em;
+    margin: 10em 0em 5em 0em;
 
     font-family: 'Montserrat', sans-serif ;
 }
@@ -32,6 +43,19 @@
     gap: 2.5em;
 }
 
+.imgSegundaSeccaoIA{
+    display: flex;
+    flex-direction: column;
+    width: 78%;
+    height: 36em;
+    border-radius: 25px;
+    background-image: url(../../assets/images/imagemIA/imgSegundaSeccao.png);
+    background-size: cover;
+    background-position: top;
+    position: absolute;
+    gap: 2.5em;
+}
+
 .txtPrimeiraSeccaoIA{
     width: 30em;
     height: 2em;
@@ -39,10 +63,33 @@
     margin-top: 3em;
 }
 
+.txtSegundaSeccaoIA{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
 .txtPrimeiraSeccaoIA01{
     width: 367px;
     height: 111px;
     margin-left: 2em;
+}
+
+.txtSegundaSeccaoIA02{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 7em;
+    margin-right: 1.5em;
+}
+
+.Titulo02IA{
+    color: #360568;
+    font-size: 5em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-right: 1em;
+    margin-top: 0.5em;
 }
 
 
@@ -53,12 +100,29 @@
     font-weight: bold;
 }
 
+.Titulo02IA{
+    color: #360568;
+    font-size: 5em;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+    margin-right: 1em;
+    margin-top: 0.5em;
+}
+
 .textoMenorIA1{
     color: #006f91;
     margin-top: 5em;
     font-size: 22px;
     width: 271px;
     font-weight: 600;
+}
+
+.textoMenorIA2{
+    text-align: right;
+    width: 13em;
+    font-size: 22px;
+    font-weight: 600;
+    color: #550b4d;
 }
 
 .linkIaTelaIa{
@@ -77,9 +141,33 @@
     width: 17.5em;
 }
 
+.linkFiltroTelaIA{
+    display: block;
+    text-decoration: none;
+    width: 154px;
+    height: 28px;
+    background-color: #ffffff;
+    text-align: center;
+    color: #000000a6;
+    border-radius: 20px;
+    font-weight: 600;
+    padding: 3px;
+
+    margin-top: 2em;
+    width: 17.5em;
+}
+
 .linkIaTelaIa:hover{
     transform: translate(0px, -3px);
     background-color: #003747 !important;
+    color: white !important;
+
+    transition: 0.5s ease-in-out;
+}
+
+.linkFiltroTelaIA:hover{
+    transform: translate(0px, -3px);
+    background-color: #550b4d !important;
     color: white !important;
 
     transition: 0.5s ease-in-out;
@@ -164,7 +252,13 @@
     .imgPrimeiraSeccaoIA{
         background-image: none;
         background-color: #006f91;
-        width: 25em;
+        width: 23em;
+    }
+
+    .imgSegundaSeccaoIA{
+        background-image: none;
+        background-color: #efa5e7 ;
+        width: 23em;
     }
 
     .txtPrimeiraSeccaoIA {
@@ -174,18 +268,45 @@
         margin-top: 2em;
     }
 
+    .txtPrimeiraSeccaoIA{
+        width: 21em;
+        height: 2em;
+        margin-left: 4em;
+        margin-top: 2em;
+    }
+
+    .txtSegundaSeccaoIA02{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+
     .Titulo01IA{
         font-size: 3em;
         width: 6em;
+    }
+
+    .Titulo02IA{
+        font-size: 3em;
+        margin-right: 2em;
     }
 
     .linkIaTelaIa {
         width: 20.5em;
     }
 
+    .linkFiltroTelaIA{
+        width: 20.5em;
+    }
+
     .textoMenorIA1{
         color: white;
     } 
+
+    .textoMenorIA2{
+        color: white;
+        text-align: left;
+    }
 
 }
 
@@ -275,5 +396,10 @@
 
     .ContainerIAeFiltro{
         width: 85%;
+        height: 14em;
+    }
+
+    .btnFiltroTelaIa:hover, .btnIaTelaIa:hover{
+        color: black;
     }
 }
