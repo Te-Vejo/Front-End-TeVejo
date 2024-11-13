@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 
 function CarroselHome() {
   return (
-        <Carousel interval={5000}>
+        <Carousel interval={4000}>
           <Carousel.Item>
             <img src={imgSlide01} alt="imagem de criança lendo com os dizeres Olhos saudáveis, infância feliz cuide do olhar de quem vc
             ama" />

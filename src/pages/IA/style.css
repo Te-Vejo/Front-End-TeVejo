@@ -40,7 +40,7 @@
 }
 
 .txtPrimeiraSeccaoIA01{
-    width: 415px;
+    width: 367px;
     height: 111px;
     margin-left: 2em;
 }
@@ -159,59 +159,121 @@
     }
 }
 
-@media (max-width:945px){
+
+@media (max-width:1440px){
     .imgPrimeiraSeccaoIA{
-        background-position: right !important;
         background-image: none;
-        background-color: #75dfff;
-        padding-left: 20px;
-        padding-top: 10px;
-        width:60%;
+        background-color: #006f91;
+        width: 25em;
     }
 
-    .txtPrimeiraSeccaoIA{
-        margin-top: 2px;
-        width: 9em;
-        height: 7em;
-    }
-    
-    .Titulo01IA{
-        text-align: center;
-        color: #ffffff;
-        font-size: 2em;
+    .txtPrimeiraSeccaoIA {
+        width: 21em;
+        height: 2em;
+        margin-left: 4em;
         margin-top: 2em;
     }
 
-    .linkIaTelaIa{
-        margin-top: 36px;
-        margin-left: 3px;
-        width: 10em;
+    .Titulo01IA{
+        font-size: 3em;
+        width: 6em;
+    }
+
+    .linkIaTelaIa {
+        width: 20.5em;
+    }
+
+    .textoMenorIA1{
+        color: white;
+    } 
+
+}
+
+@media (max-width:1200px){
+    .FotoOculosIA{
+        width: 60em;
+    }
+
+    .btnFiltroTelaIa{
+        margin-right: 16.5em;
+        width: 6.5em;
+    }
+
+
+    .btnIaTelaIa{
+        width: 6.5em;
+        margin-left: 19.5em;
     }
 }
 
-@media (max-width:536px){
-    .txtPrimeiraSeccaoIA01{
-        width: 250px;
+
+@media (max-width:1050px){
+    .FotoOculosIA{
+        width: 40em;
     }
-    .textoMenorHome3{
-        width: 217px;
-        margin-left: -30px;
-        margin-bottom: 15px;
-        margin-top: 0em;
+
+    .btnFiltroTelaIa{
+        margin-right: 14.5em;
+        width: 5.5em;
+        margin-top: 2em;
+        font-size: 19px;
+
+    }
+
+    .btnIaTelaIa{
+        width: 8.5em;
+        margin-left: 25.5em;
+        margin-top: 3em;
+        font-size: 15px;
     }
 }
 
-@media (max-width:400px){
-    .Titulo02Home {
-        margin-left: -1em;
-        font-size: 2em;
+
+@media (max-width:800px){
+    .FotoOculosIA{
+        width: 30em;
     }
 
-    .textoMenorHome3 {
-        width: 197px;
+
+    .btnFiltroTelaIa{
+        margin-right: 9.5em;
+        width: 4.5em;
+        margin-top: 3em;
+        font-size: 19px;
+
     }
 
-    .linkIaHomeEmDestaque {
-        margin-left: -23px;
+    .btnIaTelaIa{
+        width: 6.5em;
+        margin-left: 22.5em;
+        margin-top: 4em;
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width:690px){
+    .FotoOculosIA{
+        width: 20em;
+    }
+
+
+    .btnFiltroTelaIa{
+        margin-right: 5.5em;
+        width: 4.4em;
+        margin-top: 4em;
+        font-size: 15px;
+
+    }
+
+    .btnIaTelaIa{
+        width: 4.8em;
+        margin-left: 17.3em;
+        margin-top: 4.5em;
+        font-size: 14px;
+    }
+
+    .ContainerIAeFiltro{
+        width: 85%;
     }
 }
