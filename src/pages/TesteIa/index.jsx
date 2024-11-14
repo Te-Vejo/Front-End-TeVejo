@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './style.css';
 import NavbarPadrao from '../../components/navbar';
+import Popo from '../../components/BtnIaArmacao/btnArmacao';
+import { Link } from 'react-router-dom';
 
 
 const AnalisadorFacial = () => {
@@ -108,8 +110,8 @@ const AnalisadorFacial = () => {
 
 
     <section className='explicacaoIA'>
-      <h1>Análise Facial</h1>
-      <p>Escolha uma imagem para analisar a expressão facial.</p>
+      <h1 className='tituloTesteIA'>Análise Facial</h1>
+      <p className='descTesteIA'>Escolha uma imagem para analisar a expressão facial.</p>
     </section>
 
 
@@ -127,19 +129,24 @@ const AnalisadorFacial = () => {
       <div id="imagem-preview" className="imagem-preview">
         {imagemSelecionada && (
           <img
+            className='imgSelecionada'
             id="imagemSelecionada"
             alt="Imagem selecionada"
-            style={{ maxWidth: '50%', height: 'auto' }}
             src={imagemSelecionada}
           />
         )}
       </div>
-      {loading && <div id="loading" className="loading">Analisando imagem...</div>}
+      {loading && <div id="loading" className="loadingIA">Analisando imagem...</div>}
       {erro && <div id="error" className="error">{erro}</div>}
       {resultado && (
         <div id="resultado">
-          <h2>Resultados da Análise:</h2>
-          <p><strong>Melhor Armação:</strong> <span id="melhorArmacao">{resultado.MelhorArmacao}</span></p>
+
+          <Popo armacao = {resultado.MelhorArmacao} className = "popoverTelaTesteIA"/>
+          {<Link to={"/filtro"} className='linkFiltroTelaTesteIA'>Testar Armação</Link>}
+
+          
+          {/* <h2>Resultados da Análise:</h2>
+          <p><strong>Melhor Armação:</strong> <span id="melhorArmacao">{resultado.MelhorArmacao}</span></p> */}
         </div>
       )}
     </section>
