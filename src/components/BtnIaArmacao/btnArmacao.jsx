@@ -6,7 +6,7 @@ import './style.css'
 function Popo(props) {
   return (
     <>
-      {['left'].map((placement) => (
+      {['top'].map((placement) => (
         <OverlayTrigger
           trigger="click"
           key={placement}

@@ -126,4 +126,12 @@
     .error{
         text-align: center;
     }
+
+    .popoverTelaTesteIA{
+        width: 10em;
+    }
+
+    .linkFiltroTelaTesteIA{
+        width: 10em;
+    }
 }
