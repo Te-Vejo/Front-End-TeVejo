@@ -2,11 +2,14 @@ import './style.css'
 import NavbarPadrao from '../../components/navbar'
 import FooterPadrao from '../../components/footer'
 import { Link } from 'react-router-dom'
+import Libras from '../../components/VLibras'
 
 function Jogos(){
     return(
         <>
         <NavbarPadrao />
+
+        <Libras/>
         <section className='imgPrincipalTelaJogos'>
             {/*A imagem vai como background dessa section*/}
         </section>

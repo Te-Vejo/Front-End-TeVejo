@@ -14,12 +14,14 @@ import imgBlog03 from '../../assets/images/imagemBlog/imgBlog03.svg'
 import imgBlog04 from '../../assets/images/imagemBlog/imgBlog04.svg'
 import imgBlog05 from '../../assets/images/imagemBlog/imgBlog05.svg'
 import imgBlog06 from '../../assets/images/imagemBlog/imgBlog06.svg'
+import Libras from '../../components/VLibras'
 
 
 function Blog() {
     return (
         <>
             <NavbarPadrao />
+            <Libras/>
             <div className="control">
 
                 <br />

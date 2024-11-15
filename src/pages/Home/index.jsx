@@ -8,6 +8,7 @@ import imgPrimeiroJogo from '../../assets/images/imagensHome/ImgJogo01.png';
 import imgSegundoJogo from '../../assets/images/imagensHome/ImgJogo02.png';
 import imgTerceiroJogo from '../../assets/images/imagensHome/ImgJogo03.jpg';
 import CarroselHome from '../../components/carroselHome/CarroselHome';
+import Libras from '../../components/VLibras';
 
 
 
@@ -18,6 +19,7 @@ function Home(){
 
         <CarroselHome/>
        
+       <Libras/>
         <section className='segundaSeccaoHome'>
             <div className="imgsegundaSeccaoHome">
                 <div className="txtSegundaSeccaoHome">

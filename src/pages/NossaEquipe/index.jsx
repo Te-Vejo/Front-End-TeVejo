@@ -2,6 +2,7 @@ import './style.css';
 import CardEquipe from '../../components/CardEquipe/CardEquipe';
 import NavbarPadrao from '../../components/navbar';
 import FooterPadrao from '../../components/footer';
+import Libras from '../../components/VLibras';
 
 
 function NossaEquipe(){
@@ -9,6 +10,8 @@ function NossaEquipe(){
         <>
 
           <NavbarPadrao/>
+
+          <Libras/>
 
           <div className='AlinhaTextoNossaEquipe'>
             <h1 className='tituloNossaEquipe'>CONHEÇA NOSSA EQUIPE</h1>
