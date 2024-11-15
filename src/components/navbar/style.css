@@ -115,7 +115,10 @@
     .btnNavbar{
         background-color: #f8f9fa;
         margin: 0px;
-        width: 60%;
+        width: 100%;
+    }
+    .botoesNavbar{
+        width: 29em;
     }
 }
 
@@ -124,6 +127,9 @@
     .btnNavbar{
         background-color: #f8f9fa;
         margin: 0px;
-        width: 45%;
+        width: 100%;
+    }
+    .botoesNavbar{
+        width: 21em;
     }
 }

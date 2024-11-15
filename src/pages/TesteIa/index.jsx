@@ -11,7 +11,7 @@ const AnalisadorFacial = () => {
   const [erro, setErro] = useState(null);
   const [resultado, setResultado] = useState(null);
 
-  const apiKey = 'AIzaSyCIebqx1zhXllU9YGVSQoLKEZmbrb6XRok';
+  const apiKey = 'AIzaSyCoOwwHMjUrXhvqLcF72rxT2sNBkXZm53Q';
 
   const analisarImagem = async (event) => {
     const file = event.target.files[0];

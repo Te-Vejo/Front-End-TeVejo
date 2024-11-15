@@ -98,3 +98,32 @@
     font-family: 'Montserrat';
     font-weight: 600;
 }
+
+.error{
+    font-family: 'Montserrat';
+    color: red;
+}
+
+@media (max-width:800px){
+    .containerIA{
+        width: 88%;
+    }
+}
+
+@media (max-width:480px){
+    .btnEscolheImg{
+        width: 18em;
+    }
+    #inputImagem{
+        width: 18em;
+    }
+
+    .imgSelecionada {
+        width: 89%;
+        height: 90%;
+    }
+
+    .error{
+        text-align: center;
+    }
+}

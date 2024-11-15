@@ -56,9 +56,9 @@ function Home(){
         <h2 className="SubtituloParaOsPlanos">Acesse nossos planos!</h2>
 
         <section className='QuartaSeccaoHome'> 
-            <CardPlano ValorPlano={"R$ 00,00/Mês"} TipoPlano={"Free"} bene01={"Acesso aos blogs"} bene02 = {"LensKids: Teste grátis"} bene03={"2 jogos grátis"} bene04={"Realidade aumentada"} caminhoBtn={"/cadastro"} txtBtn={"Cadastrar-se"} CorfundoCartao = {"#2387A6"} CorfundoCartao02 = {"#a6e6fa"}/>
+            <CardPlano ValorPlano={"R$ 00,00/Mês"} TipoPlano={"Free"} bene01={"Acesso aos blogs"} bene02 = {"Lensify: Teste grátis"} bene03={"2 jogos grátis"} bene04={"Realidade aumentada"} caminhoBtn={"/cadastro"} txtBtn={"Cadastrar-se"} CorfundoCartao = {"#2387A6"} CorfundoCartao02 = {"#a6e6fa"}/>
 
-            <CardPlano ValorPlano={"R$ 29,00/Mês"} TipoPlano={"Plus"} bene01={"Sem anúncios"} bene02 = {"LensKids: Ilimitado"} bene03={"Jogos liberados"} bene04={"Ícones exclusivos"} caminhoBtn={"/"} txtBtn={"Assinar agora"}  CorfundoCartao = {"#FFB800"} CorfundoCartao02 = {"#ffb80059"}/>
+            <CardPlano ValorPlano={"R$ 29,00/Mês"} TipoPlano={"Plus"} bene01={"Sem anúncios"} bene02 = {"Lensify: Ilimitado"} bene03={"Jogos liberados"} bene04={"Ícones exclusivos"} caminhoBtn={"/"} txtBtn={"Assinar agora"}  CorfundoCartao = {"#FFB800"} CorfundoCartao02 = {"#ffb80059"}/>
         </section>
         
         <FooterPadrao/>
