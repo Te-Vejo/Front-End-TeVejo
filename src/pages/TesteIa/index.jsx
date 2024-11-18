@@ -11,7 +11,7 @@ const AnalisadorFacial = () => {
   const [erro, setErro] = useState(null);
   const [resultado, setResultado] = useState(null);
 
-  const apiKey = 'AIzaSyCoOwwHMjUrXhvqLcF72rxT2sNBkXZm53Q';
+  const apiKey = import.meta.env.VITE_SOME_KEY;
 
   const analisarImagem = async (event) => {
     const file = event.target.files[0];
@@ -34,7 +34,7 @@ const AnalisadorFacial = () => {
           {
             parts: [
               {
-                text: `Você é uma funcionalidade em um site e deve, analisar se há um rosto na imagem, caso haja, verifique o formato do rosto e categorize eles entre (Redondo, Quadrado, Oval e Coração), leve em consideração a largura da testa, formato do queixo e tamanho do nariz. Agora retorne um desses tipos de armação (quadrado, redondo, gatinho ou aviador) que combine com tal rosto analisado em formato JSON se não ouver retorne um texto escrevendo um erro: 
+                text: `Você é uma funcionalidade em um site e deve, analisar se há um rosto na imagem, caso haja, verifique o formato dos rostos e categorize eles entre (Redondo, Quadrado, Oval e Coração), leve em consideração a largura da testa, formato do queixo e tamanho do nariz. Agora retorne um desses tipos de armação (quadrado, redondo, gatinho ou aviador) que combine com tal rosto, retorne a resposta somente no formato JSON: 
                 {
                   "MelhorArmacao": "<tipo de armação recomendada>"
                 }`
@@ -75,7 +75,8 @@ const AnalisadorFacial = () => {
       let DataErrado = data.candidates[0].content.parts[0].text;
 
       if (DataErrado.includes("json")) {
-        DataErrado = DataErrado.slice(8, 38);
+        DataErrado = DataErrado.slice(8, 42);
+
         const result = JSON.parse(DataErrado);
         exibirResultados(result);
       } else {
@@ -84,6 +85,7 @@ const AnalisadorFacial = () => {
       }
 
     } catch (error) {
+      console.log(error);
       setErro('Erro ao analisar a imagem! Tente novamente.');
     } finally {
       setLoading(false);

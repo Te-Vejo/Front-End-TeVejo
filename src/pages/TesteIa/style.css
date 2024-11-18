@@ -128,10 +128,10 @@
     }
 
     .popoverTelaTesteIA{
-        width: 10em;
+        width: 10em !important;
     }
 
     .linkFiltroTelaTesteIA{
-        width: 10em;
+        width: 9em;
     }
 }

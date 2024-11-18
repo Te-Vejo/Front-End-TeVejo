@@ -6,7 +6,7 @@ function Libras() {
       <div className="App">
           <VLibras>
             <header className="app-header">
-                <img src="https://logodownload.org/wp-content/uploads/2018/05/libras-logo-liguagem-de-sinais-logo.png" alt="" />
+                <img src="https://logodownload.org/wp-content/uploads/2018/05/libras-logo-liguagem-de-sinais-logo.png" alt="Imagem VLibras" />
             </header>
           </VLibras>
       </div>
