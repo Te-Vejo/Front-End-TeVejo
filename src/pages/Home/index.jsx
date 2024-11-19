@@ -130,17 +130,29 @@ function Home() {
         />
       </section>
 
+      <h2 className="SubtituloParaOsPlanos">Conheça nossos parceiros!</h2>
+
       <section className="sliderParceiros">
         <div className="list">
-            <div className="itemParceiro slide01Parceiro">
-              <img src={logoKenzo} alt="logo óticas Kenzo" />
-            </div>
-            <div className="itemParceiro slide02Parceiro">
-              <img src={logoJovem} alt="" />
-            </div>
-            <div className="itemParceiro slide03Parceiro">
-              <img src={logoNavgard} alt=""/>
-            </div>
+
+            <a href="/parceiros">
+              <div className="itemParceiro slide01Parceiro">
+                <img src={logoKenzo} alt="logo óticas Kenzo" />
+              </div>
+            </a>
+
+            <a href="/parceiros">
+              <div className="itemParceiro slide02Parceiro">
+                <img src={logoJovem} alt="logo óticas Jovem" />
+              </div>
+            </a>
+
+            <a href="/parceiros">
+              <div className="itemParceiro slide03Parceiro">
+                <img src={logoNavgard} alt="logo trabalho Navgard demoday de Recife"/>
+              </div>
+            </a>
+
         </div>
       </section>
 

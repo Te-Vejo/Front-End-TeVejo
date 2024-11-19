@@ -236,8 +236,8 @@
 }
 
 .sliderParceiros .list .itemParceiro{
-    width: 200px;
-    height: 200px;
+    width: 175px;
+    height: 175px;
     position: absolute;
     left: 100%;
     animation: autoRun 20s linear infinite;
@@ -269,6 +269,16 @@
     }
     to{
         left: calc(200px*-1);
+    }
+}
+
+@media (max-width:1300px){
+    .logoNavbar {
+        margin-right: 4em !important;
+    }
+
+    .textoMenor02Home {
+        font-size: 20px;
     }
 }
 
