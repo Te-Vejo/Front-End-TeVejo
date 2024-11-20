@@ -11,11 +11,13 @@ import Blog from '../pages/Blog';
 import EscolhaPerfil from '../pages/EscolhaPerfil';
 import NossaEquipe from '../pages/NossaEquipe';
 import TesteIa from '../pages/TesteIa';
+import Parceiros from '../pages/Parceiros';
 
 function AppRoutes(){
     return(
         <Switch>
             <Route path='/' element = {<Home/>}/>
+            <Route path='/parceiros' element = {<Parceiros/>}/>
 
             <Route path='/cadastro' element = {<Cadastro/>}/>
             <Route path='/cadastroKid' element = {<CadastroKid/>}/>

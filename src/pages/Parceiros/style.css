@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.tituloParceiros{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logoParceiro01{
+    width: 10em;
+    height: 10em;
+    background-image: url(../../assets/images/logoParceiros/logoNavgard.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    bottom: 3em;
+}
+
+.logoParceiro02{
+    width: 10em;
+    height: 10em;
+    background-image: url(../../assets/images/logoParceiros/logoKenzo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    bottom: 3.5em;
+}
+
+.logoParceiro03{
+    width: 10em;
+    height: 10em;
+    background-image: url(../../assets/images/logoParceiros/logoJovem.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    bottom: 3em;
+}
+
+
+
+.seccaoParceiro01{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 25em;
+    background: linear-gradient(137deg,
+    
+    #59D1F6 0%,
+    #47A6C3 50%,
+    #347A90 100%
+    
+    );
+    margin: 3em 0em 3em 0em;
+    padding: 1em;
+} 
+
+.conteudoParceiro01{
+    width: 50%;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+
+.seccaoParceiro02{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 30em;
+    background: linear-gradient(120deg,
+    
+    #F9BB1C 0%,
+    #ffb70025 100%
+
+    ), url(../../assets/images/imagemPagParceiros/oculos.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 3em 0em 3em 0em;
+    padding: 1em;
+} 
+
+.conteudoParceiro02{
+        display: flex;
+        color: black;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.5em;
+        font-weight: 600;
+        flex-direction: column;
+        align-items: center;
+
+        background-color: #FFB800;
+        height: 10em;
+        width: 30em;
+        padding: 12px;
+        border-radius: 2em;
+}
+
+.seccaoParceiro03{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 25em;
+   background: linear-gradient(150deg,
+   
+   #B12E2E 0%,
+   #300000 100%
+   
+   );
+    margin: 3em 0em 0em 0em;
+    padding: 1em;
+} 
+
+.conteudoParceiro03{
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.conteudoParceiro03 p {
+    text-align: left;
+    width: 28em;
+    font-size: 21px;
+}
+
+.redesSociasParceiro{
+    display: flex;
+    justify-content: space-evenly;
+    width: 10em;
+}

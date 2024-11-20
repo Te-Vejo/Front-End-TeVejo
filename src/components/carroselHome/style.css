@@ -118,6 +118,12 @@
     transition: 0.5s ease-in-out;
 }
 
+@media (max-width:1920px){
+    .txtPrimeiroSlide, .txtSegundoSlide, .txtTerceiroSlide, .txtQuartoSlide{
+        margin-right: 6em !important;
+    }
+}
+
 @media (max-width:1000px){
     .carousel-item.active{
         justify-content: left;
@@ -135,8 +141,3 @@
     }
 }
 
-@media (max-width:1920px){
-    .txtPrimeiroSlide, .txtSegundoSlide, .txtTerceiroSlide, .txtQuartoSlide{
-        margin-right: 6em;
-    }
-}
