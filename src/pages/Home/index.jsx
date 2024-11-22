@@ -30,14 +30,14 @@ function Home() {
             <h1 className="Titulo02Home">Lensify</h1>
             <p className="textoMenor02Home">
               Com a nossa Inteligência Artificial, escolher a armação perfeita
-              para seu filho ficou fácil e divertido!
+              para você ficou mais prático e interativo!
             </p>
           </div>
           <div className="txtSegundaSeccaoHome02">
             <p className="textoMenorHome3">
               Nossa tecnologia exclusiva <strong>analisa</strong> o formato do
-              rosto da criança e <strong>recomenda </strong> os{" "}
-              <strong>óculos</strong> mais adequados, unindo estilo e conforto.
+              rosto da criança e <strong>recomenda </strong> os
+              <strong> óculos</strong> mais adequados, unindo estilo e conforto.
             </p>
             {
               <Link className="linkIaHomeEmDestaque" to={"/ia"}>
@@ -134,25 +134,26 @@ function Home() {
 
       <section className="sliderParceiros">
         <div className="list">
+          <a href="/parceiros">
+            <div className="itemParceiro slide01Parceiro">
+              <img src={logoKenzo} alt="logo óticas Kenzo" />
+            </div>
+          </a>
 
-            <a href="/parceiros">
-              <div className="itemParceiro slide01Parceiro">
-                <img src={logoKenzo} alt="logo óticas Kenzo" />
-              </div>
-            </a>
+          <a href="/parceiros">
+            <div className="itemParceiro slide02Parceiro">
+              <img src={logoJovem} alt="logo óticas Jovem" />
+            </div>
+          </a>
 
-            <a href="/parceiros">
-              <div className="itemParceiro slide02Parceiro">
-                <img src={logoJovem} alt="logo óticas Jovem" />
-              </div>
-            </a>
-
-            <a href="/parceiros">
-              <div className="itemParceiro slide03Parceiro">
-                <img src={logoNavgard} alt="logo trabalho Navgard demoday de Recife"/>
-              </div>
-            </a>
-
+          <a href="/parceiros">
+            <div className="itemParceiro slide03Parceiro">
+              <img
+                src={logoNavgard}
+                alt="logo trabalho Navgard demoday de Recife"
+              />
+            </div>
+          </a>
         </div>
       </section>
 

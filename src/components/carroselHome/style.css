@@ -2,6 +2,12 @@
 
 /*tamanho Imagem carrosel width 1510*/
 
+.central{
+    width: 80%;
+    margin-left: calc(50% - 40%);
+    margin-right: auto;
+}
+
 .carousel{
     margin-top: 3em;
 }
@@ -15,11 +21,6 @@
 
 .carousel-indicators {
     margin-bottom: -3em;
-}
-
-.carousel-item.active {
-    display: flex;
-    justify-content: center;
 }
 
 .carousel-control-next-icon{
@@ -37,7 +38,6 @@
     color: #ffffff;
     font-family: 'montserrat';
     font-weight: bolder;
-    margin-right: 0px !important;
 }
 
 .txtSegundoSlide{
@@ -47,7 +47,6 @@
     color: #ffffff;
     font-family: 'montserrat';
     font-weight: bolder;
-    margin-right: 0px !important;
 }
 
 .txtTerceiroSlide{
@@ -57,7 +56,6 @@
     color: #ffffff;
     font-family: 'montserrat';
     font-weight: bolder;
-    margin-right: 0px !important;
 }
 
 .txtQuartoSlide{
@@ -67,7 +65,6 @@
     color: #ffffff;
     font-family: 'montserrat';
     font-weight: bolder;
-    margin-right: 0px !important;
 }
 
 .btnCarrosel01, .btnCarrosel02, .btnCarrosel03, .btnCarrosel04{
@@ -118,9 +115,16 @@
     transition: 0.5s ease-in-out;
 }
 
+@media (min-width:1920px){
+    .central-large {
+        width: 67%;
+        margin-left: calc(60% - 40%);
+    }
+}
+
 @media (max-width:1920px){
     .txtPrimeiroSlide, .txtSegundoSlide, .txtTerceiroSlide, .txtQuartoSlide{
-        margin-right: 6em !important;
+        margin-right: -5em !important;
     }
 }
 
@@ -138,6 +142,12 @@
 
     .btnCarrosel01, .btnCarrosel02, .btnCarrosel03, .btnCarrosel04{
         width: 10em;
+    }
+
+    .central {
+        width: 98%;
+        margin-left: calc(42% - 40%);
+        margin-right: auto;
     }
 }
 
