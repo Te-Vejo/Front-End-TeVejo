@@ -213,7 +213,7 @@
     /*
     width: 200px
     height:200px
-    quantity:3
+    quantity:4
     */
 
     width: 100%;
@@ -231,7 +231,7 @@
 .sliderParceiros .list{
     display: flex;
     width: 100%;
-    min-width: calc(200px * 3);
+    min-width: calc(200px * 4);
     position: relative;
 }
 
@@ -240,19 +240,24 @@
     height: 175px;
     position: absolute;
     left: 100%;
-    animation: autoRun 20s linear infinite;
+    animation: autoRun 15s linear infinite;
 }
 
 .slide01Parceiro{
-    animation-delay: calc((20s/ 3 * (1 - 1))) !important;
+    animation-delay: calc((15s/ 4 * (1 - 1))) !important;
 }
 
 .slide02Parceiro{
-    animation-delay: calc((20s/ 3 * (2 - 1))) !important;
+    animation-delay: calc((15s/ 4 * (2 - 1))) !important;
 }
 
 .slide03Parceiro{
-    animation-delay: calc((20s/ 3 * (3 - 1))) !important;
+    animation-delay: calc((15s/ 4 * (3 - 1))) !important;
+}
+
+.slide04Parceiro{
+    animation-delay: calc((15s/ 4 * (4 - 1))) !important;
+    top: 9px;
 }
 
 .sliderParceiros .list .itemParceiro img{

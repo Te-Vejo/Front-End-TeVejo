@@ -12,6 +12,7 @@ import imgTerceiroJogo from "../../assets/images/imagensHome/ImgJogo03.jpg";
 import logoKenzo from "../../assets/images/logoParceiros/LogoKenzo.png";
 import logoNavgard from "../../assets/images/logoParceiros/LogoNavgard.png";
 import logoJovem from "../../assets/images/logoParceiros/LogoJovem.png";
+import logoSymbee from "../../assets/images/logoParceiros/LogoSymbee.png";
 
 import CarroselHome from "../../components/carroselHome/CarroselHome";
 import Libras from "../../components/VLibras";
@@ -151,6 +152,15 @@ function Home() {
               <img
                 src={logoNavgard}
                 alt="logo trabalho Navgard demoday de Recife"
+              />
+            </div>
+          </a>
+
+          <a href="/parceiros">
+            <div className="itemParceiro slide04Parceiro">
+              <img
+                src={logoSymbee}
+                alt="logo trabalho Symbee demoday de Equipe 04"
               />
             </div>
           </a>
